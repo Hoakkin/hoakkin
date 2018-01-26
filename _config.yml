@@ -1,63 +1,36 @@
-# Site
-title:              Massively
-bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
-locale:             en_US
-baseurl: "" # the subpath of your site, e.g. /blog
+# site settings
+title: Forty
+subtitle: by HTML5 UP
+email: youremailaddress@gmail.com
+description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
+author:
+street_address: 1234 Somewhere Road
+city: Nashville
+state: TN
+zip_code: 55555
+country: United States of America
+phone: (716) 555-5555
 
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/blog/:title/"
-    layout: post
-    author:
+# homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
 
-# Jekyll
-permalink:          /blog/:title/
-markdown:           kramdown
-highlighter:        rouge
-kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-mathjax:            true
+# social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url: https://gitlab.com/u/andrewbanchich
+googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+instagram_url: https://instagram.com
+linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/andrewbanchich
+
+# build settings
+markdown: kramdown
+
 sass:
-  sass_dir:         _sass
-  style:            compressed
-
-# Comments
-disqus_shortname:   default
-
-# Social
-analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
-github:             default
-
-# personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com
-
-# Gems
-gems:
-  - jekyll-mentions
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-
-paginate: 6
-paginate_path: "/blog/page:num/"
-
-jekyll-mentions:
-    base_url: https://github.com
-
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
+  style: compressed
