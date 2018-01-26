@@ -7,14 +7,14 @@
 
 # Site settings
 title: SÁNGUCHE REVISTA
-email: sanguche-revista@gmail.com
+email: sanguche.revista@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Revista de difusión de contenidos multimediales centrados en la investigación de productos culturales como núcleos culturales.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
-facebook-username: sánguche
+facebook_username: sánguche
 
 # Build settings
 markdown: kramdown
